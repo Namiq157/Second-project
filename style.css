@@ -126,7 +126,6 @@
     right: 0;
   }
 
-  
   @media screen and (min-width: 320px) and (max-width: 550px) {
     .container {
       width: 340px;

@@ -47,7 +47,6 @@
   }
   .down,
   .up {
-    cursor: pointer;
     align-self: flex-end;
     margin-bottom: 10px;
     position: absolute;
@@ -67,12 +66,11 @@
     top: 24px;
     z-index: 1;
   }
-  .up:hover{
-color: #000000;
+  .up:hover,
+  .down:hover {
+    color: #000000; 
   }
-  .down:hover{
-    color: #000000;
-      }
+  
   .add {
     background-color: #833ae0;
     border-radius: 22px;
@@ -127,6 +125,8 @@ color: #000000;
     position: absolute;
     right: 0;
   }
+
+  
   @media screen and (min-width: 320px) and (max-width: 550px) {
     .container {
       width: 340px;
